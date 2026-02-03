@@ -13,7 +13,7 @@ import {
 /* ------------------------------------------------------------------ */
 
 const api = axios.create({
-  baseURL: "http://localhost:5000/api/v1",
+  baseURL: "https://task-dashboard-backend-ptjo.onrender.com/api/v1",
 });
 
 /* Attach JWT automatically */
